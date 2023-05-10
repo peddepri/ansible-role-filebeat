@@ -1,5 +1,5 @@
 ---
-filebeat_version: 7.x
+filebeat_version: 8.x
 filebeat_package: filebeat
 filebeat_package_state: present
 
@@ -26,15 +26,15 @@ filebeat_log_level: warning
 filebeat_log_dir: /var/log/mybeat
 filebeat_log_filename: mybeat.log
 
-filebeat_ssl_certs_dir: /etc/pki/logstash
-filebeat_ssl_private_dir: "{{ filebeat_ssl_certs_dir }}"
-filebeat_ssl_ca_file: ""
-filebeat_ssl_certificate_file: ""
-filebeat_ssl_key_file: ""
-filebeat_ssl_copy_files: true
-filebeat_ssl_insecure: "false"
+#filebeat_ssl_certs_dir: /etc/pki/logstash
+#filebeat_ssl_private_dir: "{{ filebeat_ssl_certs_dir }}"
+#filebeat_ssl_ca_file: ""
+#filebeat_ssl_certificate_file: ""
+#filebeat_ssl_key_file: ""
+#filebeat_ssl_copy_files: true
+#filebeat_ssl_insecure: "false"
 
-filebeat_elastic_cloud_enabled: false
-filebeat_elastic_cloud_id: ""
-filebeat_elastic_cloud_username: ""
-filebeat_elastic_cloud_password: ""
+#filebeat_elastic_cloud_enabled: false
+#filebeat_elastic_cloud_id: ""
+#filebeat_elastic_cloud_username: ""
+#filebeat_elastic_cloud_password: ""
